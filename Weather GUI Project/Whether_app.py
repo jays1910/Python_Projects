@@ -18,7 +18,7 @@ weather_label.pack()
 # Fetch weather function
 def fetch_weather():
     city = city_entry.get()
-    api_key = "88dc3534729ff3d1727bd91b5b12ce54"
+    api_key = "88dc35347#######727bd91b5b#####"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
     try:
